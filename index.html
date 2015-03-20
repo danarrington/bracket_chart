@@ -1,0 +1,66 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <!--[if lt IE 9]>
+            <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+            <script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')</script>
+        <![endif]-->
+    </head>
+    <body>
+      <div class='container'>
+        <div class='row text-center'>
+          <a href='#' id='btn-rank' class='btn btn-default active'>By Rank</a>
+          <a href='#' id='btn-person' class='btn btn-default'>By Person</a>
+        </div>
+        <div class='spacer'></div>
+        <div class='row header'>
+          <div class='col-xs-1 col-sm-offset-3'>Pick</div>
+          <div class='col-xs-1'>Picker</div>
+          <div class='col-xs-2 text-right'>Team</div>
+          <div class='col-xs-2 text-center'>+/-</div>
+        </div>
+        <div id='chart'>
+        </div>
+
+        <div id='sorted-chart' style='display:none'>
+        </div>
+
+        <div id='temp'>
+          <div class='row pick-row'>
+            <div class='col-xs-1 col-sm-offset-3'>{{pick}}.</div>
+            <div class='col-xs-1'>{{name}}</div>
+            <div class='col-xs-2 text-right'>{{team}}</div>
+            <div class='col-xs-2' style='text-align:left'>
+              <div class='bar-wrapper text-right'>
+                <span class='pick-minus' style='width:{{minus}}px;'>&nbsp;</span></div>
+              <div class="bar-wrapper text-left">
+                <span class='pick-plus' style='width: {{plus}}px;'>&nbsp;</span></div>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

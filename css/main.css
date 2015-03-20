@@ -1,0 +1,23 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+#temp { display:none;}
+.bar-wrapper {width: 70px; display: inline-block;}
+.pick-row { 
+  //border-bottom: 1px solid #ababab;
+  padding: 5px;
+}
+
+.pick-minus { background-color:tomato; display:inline-block;}
+.pick-plus { display:inline-block; background-color:#73BFFF;}
+.header {font-weight:bolder}
+.spacer { height:20px;}
+
+
+
+
+
+
+
