@@ -27,6 +27,7 @@ $(document).ready(function() {
     $('#chart').hide();
     $('#btn-person').addClass('active');
     $('#btn-rank').removeClass('active');
+    return false;
   });    
   
   $('#btn-rank').click(function() {
@@ -34,6 +35,7 @@ $(document).ready(function() {
     $('#chart').show();
     $('#btn-rank').addClass('active');
     $('#btn-person').removeClass('active');
+    return false;
   });    
 
   $('[data-toggle="tooltip"]').tooltip();
