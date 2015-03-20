@@ -35,6 +35,8 @@ $(document).ready(function() {
     $('#btn-rank').addClass('active');
     $('#btn-person').removeClass('active');
   });    
+
+  $('[data-toggle="tooltip"]').tooltip();
 });
 
 
