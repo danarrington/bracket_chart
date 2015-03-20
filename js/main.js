@@ -54,7 +54,7 @@ $(document).ready(function() {
     },
     {
         "pick": "3",
-        "name": "Eric\n",
+        "name": "Eric",
         "team": "Duke",
         "rank": "3"
     },
@@ -150,7 +150,7 @@ $(document).ready(function() {
     },
     {
         "pick": "19",
-        "name": "Eric\n",
+        "name": "Eric",
         "team": "Wvu",
         "rank": "19"
     },
@@ -246,7 +246,7 @@ $(document).ready(function() {
     },
     {
         "pick": "35",
-        "name": "Eric\n",
+        "name": "Eric",
         "team": "UCLA",
         "rank": "42"
     },
@@ -342,7 +342,7 @@ $(document).ready(function() {
     },
     {
         "pick": "51",
-        "name": "Eric\n",
+        "name": "Eric",
         "team": "Georgia State",
         "rank": "53"
     },
@@ -403,13 +403,13 @@ $(document).ready(function() {
     {
         "pick": "61",
         "name": "Dan",
-        "team": "63. Lafayette",
+        "team": "Lafayette",
         "rank": "61"
     },
     {
         "pick": "62",
         "name": "Eric",
-        "team": "64. Coastal Carolina",
+        "team": "Coastal Carolina",
         "rank": "62"
     },
     {
@@ -645,25 +645,25 @@ var sortedData = [
     },
     {
         "pick": "3",
-        "name": "Eric\n",
+        "name": "Eric",
         "team": "Duke",
         "rank": "3"
     },
     {
         "pick": "19",
-        "name": "Eric\n",
+        "name": "Eric",
         "team": "Wvu",
         "rank": "19"
     },
     {
         "pick": "35",
-        "name": "Eric\n",
+        "name": "Eric",
         "team": "UCLA",
         "rank": "42"
     },
     {
         "pick": "51",
-        "name": "Eric\n",
+        "name": "Eric",
         "team": "Georgia State",
         "rank": "53"
     },
